@@ -1,17 +1,16 @@
 # 3257 Tap
 
-## How do I install these formulae?
+Homebrew casks for apps by [3257](https://github.com/3257).
 
-`brew install 3257/tap/<formula>`
+## ResourceWatch
 
-Or `brew tap 3257/tap` and then `brew install <formula>`.
+A menu bar monitor for CPU, memory, storage and network. See [ResourceWatch](https://github.com/3257/ResourceWatch).
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "3257/tap"
-brew "<formula>"
+```bash
+brew install --cask 3257/tap/resourcewatch
 ```
+
+The app is ad-hoc signed and not notarized, so macOS blocks its first launch. The [ResourceWatch README](https://github.com/3257/ResourceWatch#homebrew) explains how to open it.
 
 ## Documentation
 
