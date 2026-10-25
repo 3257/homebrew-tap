@@ -1,6 +1,6 @@
 cask "resourcewatch" do
-  version "0.4.0"
-  sha256 "41396d26310682e05df9995b3237d7988b226c48945752b6ec71127d4e05885c"
+  version "0.4.1"
+  sha256 "43ac087b23e93af3d28a668a17b24644edb738ca08b3c9e0a84c69a49d5d6613"
 
   url "https://github.com/3257/ResourceWatch/releases/download/v#{version}/ResourceWatch-#{version}.zip"
   name "ResourceWatch"
